@@ -202,28 +202,28 @@
   }
   
   .box2 {
-    background-image: url(images/cancer.webp);
+    background-image: url(cancer.webp);
     background-position: center;
     background-size: cover;
     position: relative;
   }
   
   .box3 {
-    background-image: url(images/brain.jpeg);
+    background-image: url(brain.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
   }
   
   .box4 {
-    background-image: url(images/gas.webp);
+    background-image: url(gas.webp);
     background-position: center;
     background-size: cover;
     position: relative;
   }
   
   .box5 {
-    background-image: url(images/ortho.webp);
+    background-image: url(ortho.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -304,19 +304,19 @@
   }
   
   .photo {
-    background-image: url(images/feed1.webp);
+    background-image: url(feed1.webp);
   }
   
   .photo2 {
-    background-image: url(images/feed2.webp);
+    background-image: url(feed2.webp);
   }
   
   .photo3 {
-    background-image: url(images/feed3.webp);
+    background-image: url(feed3.webp);
   }
   
   .photo4 {
-    background-image: url(images/feed4.webp);
+    background-image: url(feed4.webp);
   }
   .des1 h2,.des2 h2,.des3 h2,.des4 h2{
     margin-top: 75%;

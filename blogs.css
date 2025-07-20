@@ -249,19 +249,19 @@ button {
 }
 
 .im1 {
-  background-image: url(images/blogbox1.webp);
+  background-image: url(blogbox1.webp);
 }
 
 .im2 {
-  background-image: url(images/blogbox2.webp);
+  background-image: url(blogbox2.webp);
 }
 
 .im3 {
-  background-image: url(images/blogbox3.webp);
+  background-image: url(blogbox3.webp);
 }
 
 .im4 {
-  background-image: url(images/blogbox4.webp);
+  background-image: url(blogbox4.webp);
 }
 
 .news1 hr {
@@ -369,19 +369,19 @@ button:hover {
 }
 
 .ig1 {
-  background-image: url(images/blogdoctor1.webp);
+  background-image: url(blogdoctor1.webp);
 }
 
 .ig2 {
-  background-image: url(images/blogdoctor2.webp);
+  background-image: url(blogdoctor2.webp);
 }
 
 .ig3 {
-  background-image: url(images/blogdoctor3.jpg);
+  background-image: url(blogdoctor3.jpg);
 }
 
 .ig4 {
-  background-image: url(images/blogdoctor4.webp);
+  background-image: url(blogdoctor4.webp);
 }
 .ig1 img{
   max-width: 100%;
@@ -454,13 +454,13 @@ button:hover {
   background-size: cover;
 }
 .img1{
-  background-image: url(images/doctor.webp);
+  background-image: url(doctor.webp);
 }
 .img2{
-  background-image: url(images/check.webp);
+  background-image: url(check.webp);
 }
 .img3{
-  background-image: url(images/list.webp);
+  background-image: url(list.webp);
 }
 /* .img1 img,.img2 img,.img3 img{
   height: 1250px;
@@ -506,19 +506,19 @@ button:hover {
 }
 
 .banner1 {
-  background-image: url(images/blogimg1.webp);
+  background-image: url(blogimg1.webp);
 }
 
 .banner2 {
-  background-image: url(images/blogimg2.webp);
+  background-image: url(blogimg2.webp);
 }
 
 .banner3 {
-  background-image: url(images/blogimg3.webp);
+  background-image: url(blogimg3.webp);
 }
 
 .banner4 {
-  background-image: url(images/blogimg4.webp);
+  background-image: url(blogimg4.webp);
 }
 
 .heading3 {

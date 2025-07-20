@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css">
+ 
+</head>
+<body>
+
+  <div class="login">
+    <div class="bluepart">
+      <div class="im1"></div>
+      <div class="texts">
+        <p>Access your health records in one place</p>
+      </div>
+      <div class="im2"></div>
+      <div class="texts">
+        <p>Keep track of appointments and doctor visits</p>
+      </div>
+      <div class="im3"></div>
+      <div class="texts">
+        <p>View your medical records, lab, and test results</p>
+      </div>
+    </div>
+
+    <div class="whitepart">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Logo">
+      </div>
+
+      <div class="text">
+        <h1>Login/Register Account</h1>
+        <p>Registered to NH Portal? Use your mobile number so your medical history is retained.</p>
+      </div>
+
+      <div class="twoButtons">
+        <button class="b1" onclick="showInput('mobile')">Mobile Number</button>
+        <button class="b2" onclick="showInput('email')">Email ID</button>
+      </div>
+
+      <div class="input" id="inputField">
+        <label for="mail">Email ID</label>
+        <input type="email" id="mail" placeholder="Enter Email">
+      </div>
+
+      <div class="check">
+        <input type="checkbox" id="agree">
+        By logging in, you agree to our <a href="#">Terms of use</a>
+      </div>
+
+      <a href="" id="otp">Get OTP</a>
+    </div>
+  </div>
+
+  <script>
+    function showInput(type) {
+      const inputField = document.getElementById('inputField');
+      if (type === 'mobile') {
+        inputField.innerHTML = `
+          <label for="mobile">Mobile Number</label>
+          <input type="tel" id="mobile" placeholder="Enter Mobile Number" pattern="[0-9]{10}" required>
+        `;
+      } else {
+        inputField.innerHTML = `
+          <label for="mail">Email ID</label>
+          <input type="email" id="mail" placeholder="Enter Email" required>
+        `;
+      }
+    }
+  </script>
+</body>
+</html>

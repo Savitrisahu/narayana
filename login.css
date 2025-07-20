@@ -1,0 +1,153 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+    }
+
+    .login {
+      display: flex;
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+
+     .bluepart {
+    /* flex: 1 1 40%; */
+    background-color:#daf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+} 
+
+    .im1, .im2, .im3 {
+      height: 60px;
+      width: 60px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+    }
+
+    .im1 { background-image: url('images/uname.png'); }
+    .im2 { background-image: url('images/pchart.png'); }
+    .im3 { background-image: url('images/beekar.png'); }
+
+    .texts p {
+      font-size: 15px;
+      color: #333;
+      margin: 5px 0 15px;
+    }
+
+    .whitepart {
+      flex: 1;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .logo img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+
+    .text h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .text p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .twoButtons {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    .twoButtons button {
+      flex: 1;
+      padding: 12px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      cursor: pointer;
+      /* transition: background 0.3s; */
+    }
+
+    .b1 { background-color: #007BFF; }
+    .b2 { background-color: #28A745; }
+
+    .b1:hover { background-color: #0056b3; }
+    .b2:hover { background-color: #1e7e34; }
+
+    .input {
+      margin-top: 15px;
+    }
+
+    .input label {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .input input {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .check {
+      margin: 15px 0;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .check input {
+      margin-right: 6px;
+    }
+
+    #otp {
+      padding: 12px 24px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      text-align: center;
+      width: fit-content;
+      align-self: flex-end;
+    }
+
+    @media screen and (max-width: 768px) {
+      .login {
+        flex-direction: column;
+        width: 90%;
+      }
+
+      .whitepart {
+        padding: 30px 20px;
+      }
+
+      #otp {
+        align-self: center;
+      }
+    }

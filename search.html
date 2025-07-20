@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scrollbar-width: 100%; */
+  }
+  
+  /* Navbar */
+  
+  .content1{
+    padding: 10px 20px;
+    box-shadow:0 2px 10px rgba(0, 0, 0, .25);;
+   
+  }
+  nav {
+    height: 130px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+   */
+  .menu1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: -95px;
+  }
+  
+  .menu2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+  
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .menu1 a {
+    /* margin-top: 10px; */
+    color: #0d4d96;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .menu2 a {
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: -15px;
+  }
+  #city {
+    border: none;
+    color: #0d4d96;
+    font-size: 14px;
+    font-weight: bold;
+  } 
+  
+  
+  #booking{
+    border: 1px solid black;
+    background-color: #034ea2;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 40px;
+  }
+  
+
+    input {
+      display: block;
+      margin: 200px auto;
+      width: 700px;
+      padding: 15px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+    }
+
+    .quick, .emergency {
+      margin-top: 17%;
+      margin-left: 25%;
+    }
+
+    .links a, .contact a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      color: white;
+      background-color: #007BFF;
+      font-weight: bold;
+      border: 1px solid blue;
+      padding: 10px;
+      border-radius: 5px;
+       box-shadow:  0 2px 10px rgba(0, 0, 0, .25);
+     
+    }
+    .common{
+      display: flex;
+    }
+  </style>
+</head>
+<body>
+  <nav class="content1">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.svg" alt=""></a>
+        </div>
+        <div class="container">
+        <div class="menu1">
+            <a href="blogs.html">Blog</a>
+            <a href="search.html">Search Website</a>
+            <a href="" class="contact-btn">180030903090</a>
+            <select id="city" size="1">
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="chennai">Chennai</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="pune">Pune</option>
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="jaipur">Jaipur</option>
+                <option value="lucknow">Lucknow</option>
+                <option value="surat">Surat</option>
+                <option value="bhopal">Bhopal</option>
+                <option value="patna">Patna</option>
+                <option value="indore">Indore</option>
+                <option value="chandigarh">Chandigarh</option>
+                <option value="kochi">Kochi</option>
+                <option value="bhubaneswar">Bhubaneswar</option>
+                <option value="guwahati">Guwahati</option>
+                <option value="visakhapatnam">Visakhapatnam</option>
+                <option value="nagpur">Nagpur</option>
+            </select>
+            <a href="">Login</a>
+        </div>
+        <div class="menu2">
+            <a href="About.html">About Us</a>
+            <a href="Services.html">Our Services</a>
+            <a href="Network.html">Our Network</a>
+            <a href="https://www.narayanaone.health/?utm_source=corpwebsite-home-menu&utm_medium=corpwebsite-home-menu&utm_campaign=corpwebsite-home-menu&utm_id=corpwebsite-home-menu&utm_term=corpwebsite-home-menu">One Health</a>
+            <a href="emergency.html">Emergency</a>
+           <div id="booking">
+            <a href="" style="color: #fff;">Book Appoinment</a>
+           </div>
+        </div>
+    </div>
+    </nav>
+  <input type="search" placeholder="Search by keyword" />
+
+ <div class="common">
+   <div class="quick">
+    <h2>Quick Links</h2>
+    <div class="links">
+      <a href="#">Blog</a>
+      <a href="#">News & Articles</a>
+    </div>
+  </div>
+
+  <div class="emergency">
+    <h2>Emergency Contact</h2>
+    <div class="contact">
+      <a href="">1800309030</a>
+    </div>
+  </div>
+ </div>
+
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const contactButtons = document.querySelectorAll(".contact-btn");
+        
+          contactButtons.forEach(button => {
+            button.addEventListener("click", function(e) {
+              e.preventDefault();
+              alert("\n open pick an app? \n https://www.narayanahealth.org wants to open this application. \n You can contact us at: +91-9876543210");
+            });
+          });
+        });
+        </script>
+</body>
+</html>

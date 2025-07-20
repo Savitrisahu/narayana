@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   body {
+      font-family: Arial, sans-serif;
+    }
+  /* Navbar */
+  
+  .content1{
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .25);
+  }
+  nav {
+    height: 130px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  /* .container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  } */
+  
+  .menu1 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: -95px;
+  }
+  
+  .menu2 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+  
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .menu1 a {
+    /* margin-top: 10px; */
+    color: #0d4d96;
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  .menu2 a {
+    color: black;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: -15px;
+  }
+  #city {
+    border: none;
+    color: #0d4d96;
+    font-size: 14px;
+    font-weight: bold;
+  } 
+  
+  #booking{
+    border: 1px solid black;
+    background-color: #034ea2;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 40px;
+  }
+  
+  /* Navbar */
+  
+  /* banner image */
+  .main img {
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 70px;
+    z-index: -1;
+  }
+  
+  /* baner image */
+  
+  .box {
+    height: 120px;
+    width: 80%;
+    background-color: #0d4d96;
+    display: flex;
+    margin: 0 auto;
+    z-index: 1;
+    padding: 30px;
+  }
+  
+  .content3 {
+    width: 1200px;
+    margin: 50px auto 0;
+    padding: 30px;
+  }
+  
+  .title h1 {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .cont {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .img img {
+    height: 570px;
+    width: 450px;
+    display: block;
+  }
+  
+  .article {
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .article p {
+    text-align: left;
+    font-size: 22px;
+    padding: 10px;
+    width: 600px;
+  }
+  
+  .article h2 {
+    padding: 30px 0px 25px 0px;
+    font-size: 30px;
+  }
+  
+  .experties {
+    width: 1330px;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 70px;
+    background-color: #f7f7f9;
+  }
+  
+  .text {
+    margin-top: 90px;
+  }
+  
+  .text h1 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+  }
+  
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    height: 350px;
+    width: 250px;
+    margin: 20px 20px 10px 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  .experties h2 {
+    margin-top: 60%;
+    margin-bottom: 70%;
+    margin-right: 80px;
+    text-align: center;
+    padding: 20px;
+    color: blue;
+  }
+  
+  .box1 {
+    background-image: url(images/heart.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .box2 {
+    background-image: url(images/cancer.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .box3 {
+    background-image: url(images/brain.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .box4 {
+    background-image: url(images/gas.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .box5 {
+    background-image: url(images/ortho.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .box1:hover,
+  .box2:hover,
+  .box3:hover,
+  .box4:hover,
+  .box5:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .text2 h1 {
+    text-align: center;
+    margin-top: 120px;
+    font-size: 45px;
+  }
+  
+  .text2 p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .buttons a {
+    padding: 10px;
+    text-decoration: none;
+    margin: 30px;
+    color: blue;
+  }
+  
+  .buttons a:active {
+    background-color: rgb(60, 60, 230);
+    color: #f7f7f9;
+  }
+  
+  .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .bo1,
+  .bo2,
+  .bo3,
+  .bo4 {
+    height: 520px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .photo,
+  .photo2,
+  .photo3,
+  .photo4 {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .photo,
+  .photo2,
+  .photo3,
+  .photo4 {
+  
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .photo {
+    background-image: url(images/feed1.webp);
+  }
+  
+  .photo2 {
+    background-image: url(images/feed2.webp);
+  }
+  
+  .photo3 {
+    background-image: url(images/feed3.webp);
+  }
+  
+  .photo4 {
+    background-image: url(images/feed4.webp);
+  }
+  .des1 h2,.des2 h2,.des3 h2,.des4 h2{
+    margin-top: 75%;
+    font-size: 20px;
+  }
+  .des1 p,.des2 p,.des3 p,.des4 p{
+    margin-top: 5%;
+  }
+  .des1 h3{
+    margin-top: 50px;
+  }
+  .des2 h3{
+    margin-left: 8px;
+    margin-top: 110px;
+  }
+  
+  .des4 h3{
+    margin-left: 8px;
+    margin-top: 98px;
+  }
+  .des3 h3{
+    margin-left: 8px;
+    margin-top: 33px;
+  }
+  
+  /* Footer Part */
+  footer{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+     background-color: #f7f7f9;
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     padding: 50px;
+  }
+  
+  .media{
+    margin-left: 2px;
+  }
+  .media img{
+  margin-top: 10px;
+  height: 40px;
+  width: 45px;
+  padding: 5px;
+  }
+  footer p{
+  margin-top: 30px;
+  margin-left: 2px;
+  }
+  
+  .sea{
+    margin-left: 2px;
+    margin-top: 20px;
+   
+  }
+  .sea input{
+    padding: 20px;
+    padding-right: 80px;
+  }
+  
+  .guide{
+    height: 350px;
+    width: 150px;
+  }
+  
+  .foot{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    line-height: 30px;
+    margin: -20px auto;
+  }
+  li{
+    list-style-type: none;
+  }
+  .feed{
+    position: relative;
+  }
+  
+  .feed input{
+    padding: 20px;
+    width: 195%;
+    box-sizing: border-box;
+  }
+    #submit{
+    height: 59px;
+    width: 65px;
+    margin-top: 180px;
+  margin-left:-65px;
+  }
+  
+  .socialMedia{
+    margin-top: -25px;
+    /* margin-left: -200px; */
+  }
+  
+  .icons img{
+    margin-left: -12px;
+  }
+  
+  /* Footer Part */
+  
+  

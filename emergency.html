@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency</title>
+    <link rel="stylesheet" href="emergency.css">
+</head>
+<body>
+    <nav class="content1">
+        <div class="logo">
+           <a href="index.html"><img src="images/logo.svg" alt=""></a>
+        </div>
+        <div class="container">
+        <div class="menu1">
+            <a href="blogs.html">Blog</a>
+            <a href="search.html">Search Website</a>
+            <a href="" class="contact-btn">180030903090</a>
+            <select id="city" size="1">
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="bengaluru">Bengaluru</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="chennai">Chennai</option>
+                <option value="kolkata">Kolkata</option>
+                <option value="pune">Pune</option>
+                <option value="ahmedabad">Ahmedabad</option>
+                <option value="jaipur">Jaipur</option>
+                <option value="lucknow">Lucknow</option>
+                <option value="surat">Surat</option>
+                <option value="bhopal">Bhopal</option>
+                <option value="patna">Patna</option>
+                <option value="indore">Indore</option>
+                <option value="chandigarh">Chandigarh</option>
+                <option value="kochi">Kochi</option>
+                <option value="bhubaneswar">Bhubaneswar</option>
+                <option value="guwahati">Guwahati</option>
+                <option value="visakhapatnam">Visakhapatnam</option>
+                <option value="nagpur">Nagpur</option>
+            </select>
+            <a href="">Login</a>
+        </div>
+        <div class="menu2">
+            <a href="About.html">About Us</a>
+            <a href="Services.html">Our Services</a>
+            <a href="Network.html">Our Network</a>
+            <a href="https://www.narayanaone.health/?utm_source=corpwebsite-home-menu&utm_medium=corpwebsite-home-menu&utm_campaign=corpwebsite-home-menu&utm_id=corpwebsite-home-menu&utm_term=corpwebsite-home-menu">One Health</a>
+            <a href="emergency.html">Emergency</a>
+           <div id="booking">
+            <a href="" style="color: #fff;">Book Appoinment</a>
+           </div>
+        </div>
+    </div>
+    </nav>
+
+
+    <div class="content">
+        <h1>Emergency Services</h1>
+
+        <div class="boxes">
+        <div class="box1">
+           <div class="service">
+            <div class="phone">
+                <img src="images/call.jpeg" alt="">
+            </div>
+            <div class="contact">
+                <h2>180 0309 0309</h2>
+            </div>
+           </div>
+           <h3>Free Embulance</h3>
+            <p>Accute emergencies and accidents</p>
+        </div>
+
+        <div class="box2">
+            <div class="service">
+                <div class="mail">
+                    <img src="images/mail.jpg" alt="">
+                </div>
+                <div class="contact">
+                    <h2>info.bangalore@narayanahealth <br>.org</h2>
+                </div>
+            </div>
+            <h3>Email Us</h3>
+            <p>Accute emergencies and accidents</p>
+        </div>
+    </div>
+    </div>
+  
+
+
+
+    <footer>
+        <div class="socialMedia">
+            <div class="icons">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <p>Connect With Us</p>
+            <div class="media">
+                <img src="images/face.png" alt="">
+                <img src="images/mail.jpg" alt="">
+                <img src="images/linkedin.jpeg" alt="">
+                <img src="images/insta.jpeg" alt="">
+            </div>
+            <p>Subscribe to our News Letter</p>
+            <div class="sea">
+                <input type="search" name="" id="" placeholder="Enter your email ID">                                                            
+            </div>
+           
+        </div>
+        <div class="foot">
+            <div class="guide">
+                <h4>Patient Guide</h4>
+                <li><a href="">Our Network</a></li>
+                <li><a href="">Make an Enquiry</a></li>
+                <li><a href="">Find a Doctor</a></li>
+                <li><a href="">Book An Appointment</a></li>
+                <li><a href="">Video Consultation</a></li>
+                <li><a href="">Health Check Package</a></li>
+               <div class="feed">
+                <input type="text" placeholder="Feedback"> 
+               </div>
+              
+             
+            </div>
+           
+            <div class="searches">
+                <h4>Common Searches</h4>
+                <li><a href="">Chest pain</a></li>
+                <li><a href="">Heart Attack</a></li>
+                <li><a href="">Varicos Veins</a></li>
+                <li><a href="">Thyroid Problems</a></li>
+                <li><a href="">View All</a></li>
+               
+            </div>
+
+            <div class="MedicalProfessionals">
+                <h4>For Medical Professionals</h4>
+                <li><a href="">Academics</a></li>
+                <li><a href="">Clinical Research</a></li>
+                <input id="submit" type="submit">
+            </div>
+
+            <div class="company">
+                <h4>Company</h4>
+                <li><a href="">About us</a></li>
+                <li><a href="">Leadership</a></li>
+                <li><a href="">Stakeholder Relations</a></li>
+                <li><a href="">News and Media Relations</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">CSR</a></li>
+                <li><a href="">Contact us</a></li>
+            </div>
+
+            <div class="international">
+                <h4>international</h4>
+                <li><a href="">Patients</a></li>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const contactButtons = document.querySelectorAll(".contact-btn");
+        
+          contactButtons.forEach(button => {
+            button.addEventListener("click", function(e) {
+              e.preventDefault();
+              alert("\n open pick an app? \n https://www.narayanahealth.org wants to open this application. \n You can contact us at: +91-9876543210");
+            });
+          });
+        });
+        </script>
+</body>
+</html>
